@@ -45,7 +45,7 @@ import kamar from '../assets/kamar.jpg';
 import icu from '../assets/icu.jpg';
 import bu from '../assets/bu.jpg';
 import su from '../assets/su.jpg';
-import ablasi from '../assets/ablasi.JPG';
+import ablasi from '../assets/ablasi.jpg';
 import bedah_saraf from '../assets/bedah_saraf.jpg';
 import bedah_plastik from '../assets/bedah_plastik.jpg';
 import kesehatan_jiwa from '../assets/kesehatan_jiwa.jpg';
