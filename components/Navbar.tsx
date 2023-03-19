@@ -1,15 +1,15 @@
 'use client'
 
 import React, { useState, useEffect, Fragment } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { BsFacebook, BsFillPersonLinesFill, BsInstagram, BsWhatsapp, BsYoutube } from 'react-icons/bs';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { FaTwitter } from 'react-icons/fa';
+import { BsFacebook, BsInstagram, BsWhatsapp, BsYoutube } from 'react-icons/bs';
 import {logo} from '../public/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Menu,Transition } from '@headlessui/react';
 import ChevronDownIcon from '@heroicons/react/20/solid/ChevronDownIcon';
-import { ChevronUpDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid';
+import { ChevronUpIcon } from '@heroicons/react/20/solid';
 
 
 function classNames(...classes: any[]) {
