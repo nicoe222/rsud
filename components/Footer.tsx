@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 gap-4 sm:gap-8 sm:grid-cols-3 px-4">
             <div className=''>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Profile</h2>
-                <ul className="text-gray-600 dark:text-gray-400 flex flex-col space-y-1">
+                <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
                         <a href="https://flowbite.com/" className="hover:underline">Tentang Kami</a>
                     </li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <div>
             <div className=''>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Layanan</h2>
-                <ul className="text-gray-600 dark:text-gray-400 flex flex-col space-y-1">
+                <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
                         <a href="https://flowbite.com/" className="hover:underline">Rawat Inap</a>
                     </li>
@@ -66,7 +66,7 @@ const Footer = () => {
             <div>
             <div className=''>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Informasi</h2>
-                <ul className="text-gray-600 dark:text-gray-400 flex flex-col space-y-1">
+                <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
                         <a href="https://flowbite.com/" className="hover:underline">Berita</a>
                     </li>

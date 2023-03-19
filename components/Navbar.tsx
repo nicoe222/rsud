@@ -406,7 +406,7 @@ const Navbar = () => {
       </ul>
     </div>
 
-    {/* Mobile Menu Nav */}
+    {/*-------------------------------------------- Mobile Menu Nav --------------------------------------------- */}
     
     <div className='md:hidden' 
     onClick={handleNav}>
@@ -441,7 +441,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Menu as="div" className=''>
+              <Menu as="div" className='focus:outline-none'>
               {({ open }) => (
                 <>
                   <div className='flex w-full'>
@@ -530,7 +530,7 @@ const Navbar = () => {
                 )}
               </Menu>
 
-              <Menu as="div" className=''>
+              <Menu as="div" className='focus:outline-none'>
               {({ open }) => (
                 <>
                   <div className='flex w-full'>
@@ -568,7 +568,7 @@ const Navbar = () => {
                 leaveTo="transform opacity-0 scale-95"
                 >
                 
-                <Menu.Items>
+                <Menu.Items className='focus:outline-none'>
                   <div className=''>
                   <Menu.Item>
                   {({ active }) => (
@@ -682,7 +682,7 @@ const Navbar = () => {
                 )}
               </Menu>
 
-              <Menu as="div" className=''>
+              <Menu as="div" className='focus:outline-none'>
               {({ open }) => (
                 <>
                   <div className='flex w-full'>
@@ -717,7 +717,7 @@ const Navbar = () => {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
                 >
-                <Menu.Items>
+                <Menu.Items className='focus:outline-none'>
                   <div className=''>
                   <Menu.Item>
                   {({ active }) => (
