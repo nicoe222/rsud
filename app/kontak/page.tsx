@@ -44,8 +44,7 @@ const page = () => {
     </div>
     <div className="mb-2">
 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
-<textarea id="message" rows="3" 
-className="block p-2 w-full text-sm sm:text-xs text-gray-900 rounded-lg border border-gray-100 focus:ring-blue-500 focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+<textarea id="message" className="block resize-y p-2 w-full text-sm sm:text-xs text-gray-900 rounded-lg border border-gray-100 focus:ring-blue-500 focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
     </div> 
     <div className="flex items-start mb-6">
         <div className="flex items-center h-5">
