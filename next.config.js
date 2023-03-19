@@ -5,7 +5,7 @@ const nextConfig = {
   },
   images: {
     domains: [
-      'rsud.vercel.com',
+      'rsud.vercel.app',
     ]
   },
 }
