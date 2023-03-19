@@ -8,7 +8,7 @@ import auditorium from '../assets/12.jpg';
 import hero1 from '../assets/Hero1.jpg';
 import hero2 from '../assets/Hero2.jpg';
 import hero3 from '../assets/Hero3.jpg';
-import hero4 from '../assets/hero4.jpg';
+import hero4 from '../assets/Hero4.jpg';
 import doc1 from '../assets/doc-anak.jpg';
 import doc2 from '../assets/doc-umum.jpg';
 import doc3 from '../assets/doc-umum1.jpg';
