@@ -9,7 +9,7 @@ import { logo } from '../public/assets'
 const Footer = () => {
   return (
     
-<footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
+<footer className="p-4 bg-white sm:p-6">
 <hr className="my-6 border-gray-100 sm:mx-auto lg:my-8" />
     <div className="md:flex md:justify-between" >
         <div className="flex flex-col space-y-2 mb-4 md:mb-0">
