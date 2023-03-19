@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation,EffectFade} from 'swiper';
-import { hero, hero1,hero2,hero3,hero4 } from '../public/assets';
+import { hero, hero1,hero2,hero3,hero4 } from '../public/assets/';
 import Image from 'next/image';
 
 const Hero = () => {
