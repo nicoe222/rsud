@@ -3,6 +3,11 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: [
+      'www.your-domain-name.com',
+    ]
+  },
 }
 
 module.exports = nextConfig
