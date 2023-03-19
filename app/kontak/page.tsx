@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
-import { BsSend, BsSendFill } from 'react-icons/bs'
-import { green } from '../../public/assets'
+import { BsSendFill } from 'react-icons/bs'
 
 const page = () => {
   return (
@@ -10,7 +8,7 @@ const page = () => {
     <div className='flex md:space-x-4 flex-col md:flex-row md:px-24 px-8'>
       <div className='w-full md:w-1/2 '>
           <div className='w-full'>
-            <div className='mt-4 mb-4 md:mb-6'>
+            <div className='mt-4 mb-4 md:mb-6 bg-konsul'>
               <h1 className='text-black font-semibold text-lg'>FORM UMPAN BALIK</h1>
               <p className='text-sm text-gray-800'>Untuk mengirim umpan balik, silahkan lengkapi form isian di bawah ini lalu klik submit untuk mengirim.</p>
             </div>

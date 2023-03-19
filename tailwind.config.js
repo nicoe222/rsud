@@ -14,8 +14,8 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif']
       },
       backgroundImage: {
-          "konsul":"url('../public/assets/konsul.jpg')",
-           hijau:"url('../public/assets/hero4.jpg')",
+          konsul:"url('../public/assets/12.jpg')",
+          hijau:"url('../public/assets/hero4.jpg')",
       },
     },
   },
