@@ -33,13 +33,13 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Profile</h2>
                 <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
-                        <a href="https://flowbite.com/" className="hover:underline">Tentang Kami</a>
+                        <Link href="/profile/aboutus" className="hover:underline">Tentang Kami</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Mutu Layanan</a>
+                        <Link href="/profile/mutu" className="hover:underline">Mutu Layanan</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Struktur Organisasi</a>
+                        <Link href="/profile/organisasi" className="hover:underline">Struktur Organisasi</Link>
                     </li>
                         
                 </ul>
@@ -49,16 +49,16 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Layanan</h2>
                 <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
-                        <a href="https://flowbite.com/" className="hover:underline">Rawat Inap</a>
+                        <Link href="/layanan/rawat-inap" className="hover:underline">Rawat Inap</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Rawat Jalan</a>
+                        <Link href="/layanan/rawat-jalan" className="hover:underline">Rawat Jalan</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Layanan IGD</a>
+                        <Link href="/layanan/igd" className="hover:underline">Layanan IGD</Link>
                     </li>
                         <li>
-                            <a href="https://tailwindcss.com/" className="hover:underline">Layanan Intensif</a>
+                            <Link href="/layanan/intensif" className="hover:underline">Layanan Intensif</Link>
                         </li>
                 </ul>
             </div>
@@ -68,16 +68,16 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Informasi</h2>
                 <ul className="text-gray-600 flex flex-col space-y-1">
                     <li className="">
-                        <a href="https://flowbite.com/" className="hover:underline">Berita</a>
+                        <Link href="/informasi/berita" className="hover:underline">Berita</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Artikel</a>
+                        <Link href="/informasi/artikel" className="hover:underline">Artikel</Link>
                     </li>
                     <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Gallery</a>
+                        <Link href="/informasi/gallery" className="hover:underline">Gallery</Link>
                     </li>
                         <li>
-                            <a href="https://tailwindcss.com/" className="hover:underline">Pengumuman</a>
+                            <Link href="/informasi/pengumuman" className="hover:underline">Pengumuman</Link>
                         </li>
                 </ul>
             </div>
@@ -88,7 +88,7 @@ const Footer = () => {
     <hr className="md:my-6 my-3 border-gray-100 sm:mx-auto lg:my-8" />
     <div className="sm:flex sm:items-center sm:justify-between px-4">
         <span className="md:text-sm text-xs text-gray-500 sm:text-center">© 2023 
-        <a href="https://flowbite.com/" className="hover:underline"> RSUD Simpang Lima Gumul Kediri</a>
+        <a href="/" className="hover:underline"> RSUD Simpang Lima Gumul Kediri</a>
         <strong>. All Rights Reserved.</strong>
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">

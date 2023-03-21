@@ -7,10 +7,15 @@ import { doc2 } from '../public/assets'
 const Berita = () => {
   return (
     <div className='bg-white w-full'>
-        <div className='px-8 md:px-24 py-8 grid md:grid-cols-3 gap-4'>    
-    <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
+        <div className='flex justify-center'>
+        <h1 className='py-4 text-3xl leading-7 tracking-widest font-bold text-judul'>Alur Rawat Inap</h1>
+      </div>
+        <div className='px-8 md:px-24 py-8 grid md:grid-cols-3 gap-4'>
+                
+    <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
     <div>
-        <p className='flex px-3 m-3 py-[1px] rounded-md text-base md:text-lg font-bold text-white z-10 absolute bg-blue-400'>Artikel</p>
+        <p className='flex px-2 m-3 py-[1px] rounded-md text-sm md:text-base 
+        font-extralight text-white z-10 absolute bg-blue-400'>Artikel</p>
         <Image className="rounded-t-lg" src={doc2} alt="product image" />
     </div>
     <div className="px-5 pb-5 space-y-3">
@@ -25,9 +30,10 @@ const Berita = () => {
     </div>
 </div>
 
-<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
+<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div>
-        <p className='flex px-3 m-3 py-[1px] rounded-md text-base md:text-lg font-bold text-white z-10 absolute bg-blue-400'>Artikel</p>
+        <p className='flex px-2 m-3 py-[1px] rounded-md text-sm md:text-base 
+        font-extralight text-white z-10 absolute bg-blue-400'>Artikel</p>
         <Image className="rounded-t-lg" src={doc2} alt="product image" />
     </div>
     <div className="px-5 pb-5 space-y-3">
@@ -42,9 +48,10 @@ const Berita = () => {
     </div>
 </div>
 
-<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
+<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div>
-        <p className='flex px-3 m-3 py-[1px] rounded-md text-base md:text-lg font-bold text-white z-10 absolute bg-blue-400'>Artikel</p>
+        <p className='flex px-2 m-3 py-[1px] rounded-md text-sm md:text-base 
+        font-extralight text-white z-10 absolute bg-blue-400'>Artikel</p>
         <Image className="rounded-t-lg" src={doc2} alt="product image" />
     </div>
     <div className="px-5 pb-5 space-y-3">
