@@ -12,10 +12,7 @@ const page = () => {
   return (
     <>
     <div className=''>
-      <div>
-    
-      </div>
-      <p className='py-8'>AAHAHAHAHAH</p>
+      
     </div>
     <div className='md:px-16'>
     <Tab.Group>

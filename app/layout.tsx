@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import Footer from '@/components/Footer'
+import { Providers } from '../components/Providers'
 
 export const metadata = {
   title: 'RSUD',
@@ -14,10 +15,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='dark:bg-slate-900'>
+        <Providers>
+
         <Navbar/>
         {children}
         <Footer/>
+        
+        </Providers>
         </body>
     </html>
   )

@@ -1,5 +1,7 @@
 import rehab from '../assets/rehab.png';
 import logo from '../assets/logo.png';
+import indo from '../assets/indonesia.png';
+import uk from '../assets/uk.png';
 import pdalam from '../assets/pdalam.png';
 import masjid from '../assets/masjid.jpg';
 import kamaribu from '../assets/kamaribu.png';
@@ -73,7 +75,7 @@ export {
     tht,okupasi,igd,hd,andrologi,anak,saraf,bedah,bedah1,ortoped,bedah_saraf,bedah_plastik,kamar,icu,bu,su,handfoot,
     auditorium,atm,anatomi,radiologi,cancer_center,catering,rehab,akupuntur,motherhope,miokard,baby,karang,migrain,
     pdalam,paru,mata,kulit,obgyn,jantung,kesehatan_jiwa,gizi,gigi,urologi,btkv,igd1,igd2,igd3,igd4,igd5,kamaribu,
-    ablasi,masjid,patklin,sinus,
+    ablasi,masjid,patklin,sinus,uk,indo,
     logo,
     hero,hero1,hero2,hero3,hero4,
     doc1,doc3,doc2,

@@ -3,11 +3,8 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  images: {
-    domains: [
-      'rsud.vercel.app',
-    ]
-  },
+  reactStrictMode: true,
+  swcMinify:true,
 }
 
 module.exports = nextConfig
