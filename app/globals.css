@@ -14,3 +14,7 @@ body, * {
 ::-webkit-scrollbar {
   width: 0px;
 } 
+
+.bg-hijau1 {
+  background-image: url('../public/assets/12.jpg');
+}

@@ -7,7 +7,7 @@ const page = () => {
     <>
     <div className='md:px-24 px-8'>
         <div>
-      <div className='flex justify-center'>
+      <div className='flex justify-center bg-hijau'>
         <h1 className='py-4 text-3xl leading-7 tracking-widest font-bold text-judul'>Alur Rawat Jalan</h1>
       </div>
     <div className='grid md:grid-cols-6 grid-cols-2 pt-4'>
