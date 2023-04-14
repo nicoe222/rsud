@@ -13,10 +13,6 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
-      backgroundImage: {
-        konsul: "url('../public/assets/12.jpg')",
-        hijau: "url('../public/assets/hero4.jpg')",
-      },
     },
   },
   darkMode: "class",
