@@ -9,6 +9,7 @@ const page = () => {
     <div>
       <Hero />
       <Dokter />
+      {/* @ts-expect-error Server Component */}
       <Berita />
       <Pencapaian />
     </div>
