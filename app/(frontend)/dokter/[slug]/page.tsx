@@ -56,7 +56,7 @@ async function page({ params: { slug } }: Props) {
                     </tr>
                   </thead>
                   {dokters.hari.map((haris) => (
-                    <tbody>
+                    <tbody key={haris._id}>
                       <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                         <th
                           scope="row"
