@@ -19,7 +19,7 @@ const page = () => {
               alt=""
             />
             <div className=" p-4 space-y-2">
-              <h5 className="text-2xl font-semibold text-judul">Rawat Inap</h5>
+              <h5 className="text-2xl font-semibold text-judul">Auditorium</h5>
               <p className="font-normal text-gray-700">
                 Auditorium yang kami miliki berkapasitas kurang lebih 500 orang.
               </p>

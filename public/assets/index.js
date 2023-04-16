@@ -3,7 +3,11 @@ import logo from "../assets/logo.png";
 import indo from "../assets/indonesia.png";
 import uk from "../assets/uk.png";
 import pdalam from "../assets/pdalam.png";
+import surgery from "../assets/surgery_center.png";
 import masjid from "../assets/masjid.jpg";
+import cardio from "../assets/cardio.jpg";
+import burn from "../assets/burn_unit.jpg";
+import geriatri from "../assets/geriatri.jpg";
 import kamaribu from "../assets/kamaribu.png";
 import hero from "../assets/Hero.jpeg";
 import auditorium from "../assets/12.jpg";
@@ -69,6 +73,10 @@ import akupuntur from "../assets/akupuntur.jpeg";
 import motherhope from "../assets/motherhope.jpeg";
 
 export {
+  surgery,
+  geriatri,
+  burn,
+  cardio,
   tht,
   okupasi,
   igd,

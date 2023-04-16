@@ -1,13 +1,15 @@
 import React from "react";
 import Berita from "@/components/Berita";
 import Dokter from "@/components/Dokter";
-import Hero from "@/components/Hero";
+import HeroSection from "@/components/HeroSection";
 import Pencapaian from "@/components/Pencapaian";
 
 const page = () => {
   return (
     <div>
-      <Hero />
+      {/* @ts-expect-error Server Component */}
+      <HeroSection />
+      {/* @ts-expect-error Server Component */}
       <Dokter />
       {/* @ts-expect-error Server Component */}
       <Berita />

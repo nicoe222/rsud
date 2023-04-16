@@ -1,11 +1,7 @@
-import Hero from './Hero';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import Dokter from './Dokter';
-import Detail from './Detail';
+import HeroSection from "./HeroSection";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Dokter from "./Dokter";
+import Detail from "./Detail";
 
-
-export {
-    Hero,Navbar,Footer,Dokter,Detail
-}
-
+export { HeroSection, Navbar, Footer, Dokter, Detail };

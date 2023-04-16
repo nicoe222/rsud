@@ -18,6 +18,29 @@ interface Post extends Base {
   description: string;
 }
 
+interface Dokter extends Base {
+  author: Author;
+  hari: Hari[];
+  klinik: Klinik[];
+  mainImage: Image;
+  slug: Slug;
+  name: string;
+}
+
+interface Hari extends Base {
+  day: string;
+  waktu: string;
+}
+interface Klinik extends Base {
+  name: string;
+  tittle: string;
+}
+
+interface Hero extends Base {
+  name: string;
+  image: Image;
+}
+
 interface Author extends Base {
   bio: Block[];
   image: Image;
